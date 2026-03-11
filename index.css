@@ -1,0 +1,120 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  margin:0;
+  font-family: Arial, sans-serif;
+}
+
+@keyframes gradientMove {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.animated-bg {
+  background: linear-gradient(-45deg, #3b82f6, #8b5cf6, #6366f1, #0ea5e9);
+  background-size: 400% 400%;
+  animation: gradientMove 12s ease infinite;
+}
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  overflow-x: hidden;
+}
+
+
+
+.glass-bg{
+  min-height:100vh;
+  background: radial-gradient(circle at top,#6366f1,#020617);
+}
+
+.tech-bg{
+  min-height:100vh;
+  background-color:#0f172a;
+  background-image:
+    linear-gradient(rgba(255,255,255,0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,0.05) 1px, transparent 1px);
+  background-size:50px 50px;
+}
+
+/* LIGHT MODE GRID */
+
+.tech-light{
+  min-height:100vh;
+  background-color:#f8fafc;
+  color:black;
+  background-image:
+    linear-gradient(rgba(34, 158, 131, 0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(38, 137, 155, 0.05) 1px, transparent 1px);
+  background-size:40px 40px;
+}
+
+
+/* DARK MODE GRID */
+
+.tech-dark{
+  min-height:100vh;
+  background-color:#0f172a;
+  color:white;
+  background-image:
+    linear-gradient(rgba(137, 12, 240, 0.06) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,0.06) 1px, transparent 1px);
+  background-size:40px 40px;
+}
+
+.tech-light{
+  min-height:100vh;
+  background:linear-gradient(135deg,#e0f2fe,#f1f5f9,#e9d5ff);
+  color:black;
+}
+
+
+body{
+  margin:0;
+  font-family: Arial, sans-serif;
+}
+
+/* LIGHT MODE */
+.tech-light{
+  min-height:100vh;
+  background: linear-gradient(135deg, #5394d4, #46708b, #e9d5ff);
+}
+
+/* DARK MODE GRID */
+.tech-dark{
+  min-height:100vh;
+  background-color:#0f172a;
+  background-image:
+    linear-gradient(rgba(25, 42, 134, 0.06) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(41, 32, 160, 0.06) 1px, transparent 1px);
+  background-size:40px 40px;
+}
+
+
+body{
+  margin:0;
+  font-family: Arial, sans-serif;
+}
+
+.tech-light{
+  min-height:100vh;
+  background: linear-gradient(135deg,#dbeafe,#bfdbfe,#93c5fd);
+}
+
+.tech-dark{
+  min-height:100vh;
+  background-color:#0f172a;
+  background-image:
+    linear-gradient(rgba(255,255,255,0.06) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,0.06) 1px, transparent 1px);
+  background-size:40px 40px;
+}
