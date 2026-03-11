@@ -52,11 +52,4 @@ Check out the live website here:
 - **React Icons** – Beautiful icons used for UI.
 - **GH-Pages** – Hosting the website on GitHub Pages.
 
----
-
-## 🚀 Installation
-
-1. Clone the repository:
-
-```bash
-git clone https://github.com/YOUR-USERNAME/microsoft-club-site.git
+--
