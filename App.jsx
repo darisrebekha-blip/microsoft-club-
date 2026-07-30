@@ -6,7 +6,7 @@ import Home from "./Home";
 import Projects from "./Projects";
 import Team from "./Team";
 import Contact from "./Contact";
-import Footer from "./components/Footer";
+import Footer from "./Footer";
 
 function App() {
 
