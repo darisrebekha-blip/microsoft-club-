@@ -28,18 +28,12 @@ function App() {
           <Link className="hover:text-red-300 transition" to="/contact">Contact</Link>
         </div>
 
-        <label className="relative inline-flex items-center cursor-pointer">
-          <input
-            type="checkbox"
-            className="sr-only peer"
-            checked={darkMode}
-            onChange={() => setDarkMode(!darkMode)}
-          />
-
-          <div className="w-11 h-6 bg-gray-300 rounded-full peer peer-checked:bg-blue-600 transition"></div>
-
-          <div className="absolute left-1 top-1 w-4 h-4 bg-white rounded-full transition peer-checked:translate-x-5"></div>
-        </label>
+        <button 
+          onClick={() => setDarkMode(!darkMode)} 
+          className="p-2 text-xl hover:scale-110 transition-transform"
+        >
+          {darkMode ? "🌙" : "☀️"}
+        </button>        
 
       </nav>
 
