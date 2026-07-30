@@ -3,7 +3,7 @@ import { useState } from "react";
 import "./index.css";
 
 import Home from "./pages/Home";
-import Projects from "./pages/Projects";
+import Projects from "./Projects";
 import Team from "./pages/Team";
 import Contact from "./pages/Contact";
 import Footer from "./components/Footer";
