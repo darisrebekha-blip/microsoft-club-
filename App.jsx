@@ -2,10 +2,10 @@ import { Routes, Route, Link } from "react-router-dom";
 import { useState } from "react";
 import "./index.css";
 
-import Home from "./pages/Home";
+import Home from "./Home";
 import Projects from "./Projects";
-import Team from "./pages/Team";
-import Contact from "./pages/Contact";
+import Team from "./Team";
+import Contact from "./Contact";
 import Footer from "./components/Footer";
 
 function App() {
