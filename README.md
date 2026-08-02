@@ -26,7 +26,7 @@ A modern, responsive website for the Microsoft Club, built with **React**, **Vit
 ## 🌐 Live Demo
 
 Check out the live website here:  
-https://ms-student-club.vercel.app/
+https://student-microclub.vercel.app/
 
 ---
 
